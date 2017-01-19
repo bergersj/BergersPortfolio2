@@ -1,0 +1,74 @@
+<doctype! html>
+<html>
+<head>
+  <title> ContactPage </title>
+  <link href= "deliverable1.css" type="text/css"
+  rel= "stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bungee+Shade" rel="stylesheet">
+</head>
+
+<body>
+  <div class="navigation">
+  <h1 id="id1"> Contact </h1>
+  <!--
+      <a class='btn' href="deliverable1.html"> Home </a>
+      <a class='btn' href="about.html"> About </a>
+      <a class='btn' href="contact.html"> Contact </a>
+  -->
+  <nav>
+    <ul>
+      <li><a href="deliverable1.html">Home</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="about.html">About</a></li>
+      <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+      <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+      <script type='text/javascript' src='stickynav.js'></script>
+    </ul>
+  </nav>
+  </div>
+  <div class="form">
+    <form action="mailto:joshbergers35@gmail.com" method="get">
+      <fieldset>
+        <legend>
+          Your Details:
+        </legend>
+        <label>
+          Name:
+          <input type="text" name="name" size="30" maxlength="100">
+        </label>
+        <br />
+        <label>
+          Email:
+          <input type="email" name="email" size="30" maxlength="100">
+        </label>
+        <br />
+        <label>
+          Comments:
+          <textarea name="comments" cols="20" rows="4">
+          </textarea>
+        </label>
+        <br />
+        <br />
+        <input type="submit" name="submit">
+      </fieldset>
+    </form>
+  </div>
+  </p>
+  <div class="jsbutton">
+  <button onclick="myFunction()">Click Here!</button>
+
+  <script>
+  function myFunction() {
+      var x = document.createElement("INPUT");
+      x.setAttribute("type", "button");
+      x.setAttribute("value", "Thank you!");
+      document.body.appendChild(x);
+  }
+  </script>
+  <button type="button"
+onclick="document.getElementById('id1').style.color = 'rgb(10, 246, 246)'">
+And Here!</button>
+  </div>
+</body>
+
+</html>

@@ -36,9 +36,15 @@ h1 {
   }
 }
 
+#firstpic {
+    margin-top: 200px;
+}
+
 .pic {
   border-radius: 8px;
   border-style: solid;
+  margin-top: 50px;
+  margin-left: 50px;
   padding: 5px;
   border-width: thick;
   border-color: rgb(86, 99, 105);

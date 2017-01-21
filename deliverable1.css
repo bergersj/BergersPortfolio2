@@ -26,8 +26,8 @@ h1 {
 *//
 
 .images {
-  margin-left: 100px;
-  margin-top: 220px;
+  margin-left: 100px auto;
+  margin-top: 220px auto;
   img.medium {
     width: 50px;
     height: 250px;

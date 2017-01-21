@@ -1,0 +1,162 @@
+
+h1 {
+  font-family:  'Bungee Shade', cursive;
+  text-decoration: none;
+  text-align: center;
+  font-size: 200%;
+  letter-spacing: 0.13em;
+  color:rgb(199, 205, 214);
+}
+
+//*.btn {
+  background-color: rgb(53, 59, 60);
+ color: rgb(199, 205, 214);
+ letter-spacing: 0.08em;
+ font-size: 18px;
+ text-decoration: none;
+ padding: 8px 30px;
+ display: inline-block;
+ border-radius: 5px;
+ margin: 20px;
+ position: relative;
+ left: 30%;
+ right: 30%;
+
+}
+*//
+
+.images {
+  margin-left: 100px;
+  margin-top: 220px;
+  img.medium {
+    width: 50px;
+    height: 250px;
+  border-radius: 5px;
+  position: absolute;
+  }
+}
+
+#firstpic {
+    margin-top: 200px;
+}
+
+.pic {
+  border-radius: 8px;
+  border-style: solid;
+  margin-top: 50px;
+  margin-left: 50px;
+  padding: 5px;
+  border-width: thick;
+  border-color: rgb(86, 99, 105);
+}
+
+body {
+  background-image: url("images/IMG_0122.JPG");
+  opacity: 0.96;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+p {
+  color: black;
+}
+
+.form, .container {
+  position:relative;
+  top: 250px;
+  left: 50px;
+  width: 650px;
+  border-radius: 5px;
+  background: rgb(71, 142, 152);
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.container {
+  border-style: inset;
+}
+
+figcaption {
+  border-radius: 5px;
+  background: rgb(71, 142, 152);
+  text-align: center;
+  padding: 2px 50px;
+  border-style: solid;
+  border-color: rgb(86, 99, 105);
+  margin-right: 100px;
+
+}
+
+.facebook {
+  border-radius: px;
+  background: rgb(71, 142, 152);
+  text-align: center;
+}
+
+.aboutpics {
+  border-radius: 5px;
+  width: 400px;
+  position: relative;
+}
+
+.navigation {
+  position: absolute;;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  background-color: rgb(86, 99, 105);
+  font-family: 'Oswald', sans-serif;
+  z-index: 10;
+}
+
+nav {
+  z-index: 500;
+  background-color: rgb(86, 99, 105);
+  margin: 0 0 40px 0;
+
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+  list-style: none;
+  float: center;
+  background-color: rgb(53, 59, 60);
+  color: white;
+  letter-spacing: 0.08em;
+  font-size: 18px;
+  text-decoration: none;
+  padding: 8px 30px;
+  display: inline-block;
+  border-radius: 5px;
+  margin-left: 15%;
+
+}
+
+.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: transparent;
+}
+
+.fixed .nav-inner {
+  max-width: 700px;
+  margin: 0 auto;
+  background-color: inherit;
+}
+
+.nav-placeholder {
+  margin: 0 0 40px 0;
+}
+
+.jsbutton {
+  position: absolute;
+  right: 50%;
+  bottom: 10%
+}
